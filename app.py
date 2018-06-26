@@ -10,7 +10,7 @@ app.config.from_object(Configuration)
 db = SQLAlchemy(app)
 
 # GET request to ip.jsontest.com
-def home():
+def home(My microservice!):
     return render_template('home.html')
 
 def rest_request_example():
