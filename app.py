@@ -16,6 +16,7 @@ def home():
 
 def rest_request_example():
     print (requests.get("http://140.86.15.104:3000/shield/33/45/yellow/bhashemjawaheri").text)
+    print (requests.get("http://140.86.15.104:3000/fighters/0/4/yellow/bhashemjawaheri").text)
 
 def read_db_SQL_example():
     conn = db.get_engine().connect()
