@@ -15,7 +15,7 @@ def home():
     return render_template('home.html')
 
 def rest_request_example():
-    print (requests.get("http://140.86.15.104:3000/fighters/42/4/yellow/bhashemjawaheri").text)
+    print (requests.get("http://140.86.15.104:3000/fighters/42/8/yellow/bhashemjawaheri").text)
 
 def read_db_SQL_example():
     conn = db.get_engine().connect()
